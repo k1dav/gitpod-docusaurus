@@ -1,0 +1,10 @@
+image: gitpod/workspace-node-lts
+
+ports:
+  - name: page
+    port: 3000
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - yzhang.markdown-all-in-one
